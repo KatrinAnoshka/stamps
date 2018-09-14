@@ -28,6 +28,36 @@ $(function() {
         });
     });
 
+   	/* Download file */
+
+   	$(".upfile1").click(function () {
+    	$(".file1").trigger('click');
+	});
+	$(".upfile2").click(function () {
+    	$(".file2").trigger('click');
+	});
+	$(".upfile3").click(function () {
+    	$(".file3").trigger('click');
+	});
+	$(".upfile4").click(function () {
+    	$(".file4").trigger('click');
+	});
+	$(".upfile5").click(function () {
+    	$(".file5").trigger('click');
+	});
+	$(".upfile6").click(function () {
+    	$(".file6").trigger('click');
+	});
+	$(".upfile7").click(function () {
+    	$(".file7").trigger('click');
+	});
+	$(".upfile8").click(function () {
+    	$(".file8").trigger('click');
+	});
+	$(".upfile9").click(function () {
+    	$(".file9").trigger('click');
+	});
+
 	/* Left-scroll */
 
 	$(window).scroll(function(event){
