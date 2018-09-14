@@ -17,16 +17,7 @@ $(function() {
     	$("#file1").trigger('click');
 	});
 
-// Flexslider
-   	$(window).load(function(){
-        $('.flexslider').flexslider({
-            animation: "slide",
-            manualControls: ".flex-control-nav li",
-            start: function(slider){
-                $('body').removeClass('loading');
-            }
-        });
-    });
+
 
    	/* Download file */
 
@@ -138,5 +129,20 @@ $(function() {
 	// 	mainClass: 'mfp-forms'
 	// });
 });
+
+// Flexslider
+   	$(window).load(function(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+        $('.products .flexslider').flexslider({
+		    animation: "slide",
+		    controlsContainer: $(".custom-controls-container"),
+		    customDirectionNav: $(".custom-navigation a")
+	  	});
+    });
 
 
