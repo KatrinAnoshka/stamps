@@ -140,9 +140,19 @@ $(function() {
         });
         $('.products .flexslider').flexslider({
 		    animation: "slide",
+		    // controlNav: "thumbnails",
 		    controlsContainer: $(".custom-controls-container"),
 		    customDirectionNav: $(".custom-navigation a")
 	  	});
+	  	$('.review .flexslider').flexslider({
+		    animation: "slide",
+	  	});
+	  	$('.flexslider-clients').flexslider({
+		    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 150
+		});
     });
 
 
