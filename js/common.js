@@ -2,14 +2,13 @@ $(function() {
 
 	/* Adaptive menu */
 
-    (function($){
-      $(function() {
-        $('.menu__icon').on('click', function() {
-           $(this).closest('.mob-wrap').toggleClass('menu_state_open');
-           $('.header-right').toggleClass('hidden-div');
+    
+        $('.menu__icon').on('click', function(){
+           $('.menu').toggleClass('menu_state_open');
+            $('.our-contacts').toggleClass('hidden-div');
         });
-      });
-    })(jQuery);
+     
+  
 
     /* Download file */
 
@@ -128,31 +127,46 @@ $(function() {
 	// 	type:"inline",
 	// 	mainClass: 'mfp-forms'
 	// });
+
+
+	
+
 });
 
 // Flexslider
    	$(window).load(function(){
-        $('.flexslider').flexslider({
+        $('.slider-wrap .flexslider').flexslider({
             animation: "slide",
+            touch: true,
             start: function(slider){
                 $('body').removeClass('loading');
             }
         });
         $('.products .flexslider').flexslider({
 		    animation: "slide",
+
+		    touch: true,
 		    // controlNav: "thumbnails",
-		    controlsContainer: $(".custom-controls-container"),
-		    customDirectionNav: $(".custom-navigation a")
+		    // controlsContainer: $(".custom-controls-container"),
+		    // customDirectionNav: $(".custom-navigation a")
 	  	});
 	  	$('.review .flexslider').flexslider({
 		    animation: "slide",
+		    
+		    touch: true
 	  	});
 	  	$('.flexslider-clients').flexslider({
 		    animation: "slide",
+		    touch: true,
     animationLoop: false,
     itemWidth: 210,
     itemMargin: 150
 		});
+
+
+
+		
+
     });
 
 

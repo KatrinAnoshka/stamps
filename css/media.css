@@ -2,14 +2,109 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	
+	/*Header-section*/
+	.logo-menu-wrap {
+		display: block;
+	}
+	.menu {
+		margin-top: 10px;
+	}
+	/*Section-products*/
+	.flex-direction-nav {
+		display: none;
+	}
+	/*Section-review*/
+	.slides__review-main {
+		width: 90%;
+	}
+	.slides__review-response {
+		width: 80%;
+	}
+	/*Section-contacts*/
+	#map {
+		margin-top: 18.5em;
+	}
+	.map-descr-main {
+		bottom: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	
+	/*Section-round-stamp*/
+	.stamp-item {
+		width: 40%;
+		margin-right: 0;
+		margin-top: 15px;
+	}
+	.stamp-items {
+		justify-content: space-around;
+	}
+	/*Section-review*/
+	.button__review {
+		margin-top: 9%;
+	}
+	/*Section-products*/
+	.products-item {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.flexslider .slides img {
+		margin: 0 auto;
+		padding-right: 0;
+		width: 70%;
 
+	}
+	.products-item__descr {
+		-ms-align-items: center;
+		align-items: center;
+		margin-top: 25px;
+	}
+	.button__products,
+	.products-item__text, 
+	.products-item__time, 
+	.products-item__price {
+		margin-top: 15px;
+		text-align: center;
+	}
+	
+	/*Section-clients */
+	.clients .wrapper {
+		width: 82%;
+	}
 }
 
+@media only screen and (max-width : 880px) {
+	/*Header-section*/
+	.menu__icon {
+		display: block;
+		bottom: 0;
+	}
+	.menu__links {
+		display: none;    
+	}
+	.header-wrap {
+		-ms-align-items: initial;
+		align-items: initial;
+	}
+	.button__header, 
+	.our-contacts {
+		margin-top: 10px;
+	}
+	.logo-header {
+		margin-right: 0;
+	}
+	.header {
+		position: relative;
+	}
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -34,17 +129,167 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
+	/*Section-round-stamp*/
+	.stamp-item {
+		width: 54%;
+	}
+	.stamp-items {
+		padding-top: 50px;
+	}
+
+	/*Section-review*/
+	.button__review {
+	    margin-top: 15%;
+	}
+	.review-wrap {
+		padding-bottom: 50px;
+	}
+
+	/*Section-about*/
+	.about-item {
+		width: 45%;
+		padding-right: 0;
+	}
+
+	/*Section-products*/
+	.products-list {
+		width: 95%;
+	}
+	.button__products {
+		margin-top: 35px;
+    	line-height: 2.3;
+	}
+	/*Section-clients*/
+	.clients .wrapper {
+	    width: 65%;
+	}
 
 }
 
+@media only screen and (max-width : 640px) {
+	.header-wrap {
+		padding-bottom: 60px;
+	}
+	.our-contacts {
+		position: absolute;
+    bottom: 10px;
+    right: 20px;
+	}
+	.menu__icon {
+	    top: 50px;
+	}
+}
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 550px) {
+	body {
+		font-size: 0.8em;
+	}
+	.header-wrap {
+    padding-bottom: 82px;
+}
+	.button__header {
+		font-size: 16px;
+	}
+	.about-wrap, .catalog-wrap, .stamp-wrap, .products-wrap, .review-wrap {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+	.phone {
+		font-size: 1.5em;
+		line-height: 1.5;
+	}
+	.address {
+		line-height: 1.5;
+	}
+	.logo-header__img {
+		width: 88%;
+	}
+	.logo-menu-wrap {
+		width: 53%;
+    padding-top: 17px;
+	}
+	.menu.menu_state_open .menu__links {
+		position: relative;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+    width: 130%;
+    left: 50%;
+	}
+	
+	/*Section-main-slider*/
+	.button__slider {
+		line-height: 3;
+	}
 
+	/*Section-catalog*/
+	.catalog-title {
+	    padding-bottom: 35px;
+	}
+	/*Section-stamps*/
+	.stamp-items {
+	    padding-top: 35px;
+	}
+	.stamp-item {
+	    width: 70%;
+	}
+	.button__stamp {
+		line-height: 2.5;
+	}
+	/*Section-review*/ 
+	.button__review {
+		font-size: 1.3em;  	
+    	line-height: 3;
+	}
+	/*Section-clients*/ 
+	.flexslider-clients {
+	    margin: 45px 0 160px;
+	}
+
+	/*Section-products*/ 
+	.flexslider .slides img {
+		width: 85%;
+	}
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 480px) {
+	/*Section-about*/
+	.about-item {
+	    width: 60%; 
+	}
+	.about-items {
+		justify-content: center;
+	}
 
+	/*Section-stamp*/
+	.stamp-item {
+	    width: 90%;
+	}
+	/*Section-catalog*/
+	.catalog-item {
+		width: 295px;
+	}
+	/*Section-products*/
+	.products-wrap {
+	    padding-bottom: 24px;
+	}
+	.products-name {
+		padding: 4px;
+	}
+
+	/*Section-review*/
+	.button__review {
+		width: 80%;
+	    margin-top: 39%;
+	}
+	.slides__review-response {
+		bottom: -124px;
+	}
+
+	/*Section-clients*/
+	.flexslider-clients {
+	    margin: 45px 0 94px;
+	}
 }
 
 
