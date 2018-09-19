@@ -86,6 +86,8 @@
 	.clients .wrapper {
 		width: 82%;
 	}
+	
+	/**********end of Index.html**********/	
 
 	/**********Catalog.html**********/
 
@@ -101,7 +103,7 @@
 	}
 
 
-	/**********end of Index.html**********/	
+	
 }
 
 @media only screen and (max-width : 880px) {
@@ -132,6 +134,16 @@
 	}
 
 	/**********end of Index.html**********/	
+	
+	/**********Catalog.html**********/
+	.catalog-main {
+     	padding-top: 0; 
+	}
+
+	/**********Oplata.html**********/
+	.oplata {
+		padding-top: 0;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -224,6 +236,39 @@
 	.klishe-row__list img {
 		width: 38%;
 	}
+
+	/**********Oplata.html**********/
+
+	.oplata-wrapper {
+		padding: 50px 20px;
+	}
+	.oplata-wrapper__item {
+		flex-direction: column;
+    	align-items: center;
+    	padding-bottom: 40px;
+	}
+	.oplata-wrapper__descr {
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.oplata-wrapper__img {
+		padding-right: 0;
+		padding-bottom: 35px;
+	}
+	.oplata-wrapper__title {
+		padding-left: 0;
+		text-align: center;
+	}
+	.oplata-wrapper__text {
+		text-align: center;
+	} 
+	.operatory__wrap {
+		text-align: center;
+		padding: 40px 0;
+	}
+	.operatory__wrap img {
+		width: 70%;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 550px) {
@@ -301,7 +346,11 @@
 		width: 85%;
 	}
 
-	/**********end of Index.html**********/	
+	/**********Oplata.html**********/	
+
+	.oplata-wrapper {
+	    padding: 50px 20px 125px;
+	}
 }
 
 /* Custom, iPhone Retina */

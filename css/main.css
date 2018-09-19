@@ -343,7 +343,7 @@ h5 {
     left: -65px;
 }
 .products .flexslider:hover .flex-direction-nav .flex-next {
-    right: -100px;
+    right: -65px;
 }
 .products .flex-direction-nav a {
     width: 100px;
@@ -861,7 +861,12 @@ h5 {
 
 /************--------------Catalog.html--------------************/
 
+
 /**********Section-catalog-main**********/
+
+.catalog-main {
+    padding-top: 96px;
+}
 
 .catalog-main__title-wrap {
     width: 100%;
@@ -871,7 +876,7 @@ h5 {
 }
 .catalog-main__title {
     color: #fff;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .catalog-main__content {
     padding-bottom: 70px;
@@ -928,11 +933,137 @@ ul.submenu {
     justify-content: center;
 }
 
+/************--------------Oplata.html--------------************/
 
+.oplata {
+    padding-top: 96px;
+    background: #fafafa;
+    background: linear-gradient(to right, #fafafa, #f4f4f4, #fbfbfb);
+}
 
-
-
-
+.oplata__title-wrap {
+    width: 100%;
+    height: auto;
+    background: #37dae9;
+    background: radial-gradient(#37dae9, #00c8df, #01a2bc);
+}
+.oplata__title {
+    color: #fff;
+    padding: 40px 0;
+}
+.oplata-wrapper {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 70px 20px;
+}
+.oplata-wrapper__item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+.oplata-wrapper__img {
+    width: 300px;
+    height: auto;
+    padding-right: 70px;
+}
+.oplata-wrapper__descr {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.oplata-wrapper__title {
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+.oplata-wrapper__list,
+.oplata-wrapper__note,
+.oplata-wrapper__text {
+    color: #3c3c3c;
+    line-height: 1.4;
+    padding-top: 35px;
+}
+.oplata-wrapper__list li,
+.oplata-wrapper__inner {
+    list-style: none;
+}
+.oplata-wrapper__list li:before,
+.oplata-wrapper__inner li:before {
+    color: rgb(3, 146, 188);
+    content: "\2022"; 
+    padding-right: 10px; 
+}
+.oplata-wrapper__note {
+    font-style: italic;
+}
+.oplata-wrapper__note:before {
+    color: rgb(3, 146, 188);
+    content: "\274B";
+    font-size: 0.6em; 
+    padding-right: 10px; 
+} 
+.oplata-wrapper__o-list {
+    padding-top: 35px;
+    line-height: 1.4;
+}
+.oplata-wrapper__o-list li {
+    color: rgb(3, 146, 188);
+    font-weight: bold;
+    margin-left: 17px;
+}
+.oplata-wrapper__o-list span {
+    color: #3c3c3c;
+    font-weight: normal;
+}
+.oplata-wrapper__inner li {
+    color: #3c3c3c;
+    font-weight: normal; 
+    margin-left: 17px;
+}
+.operatory {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3c3c3c;
+    line-height: 1.2;
+    text-align: center;
+}
+.operatory__wrap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+.oplata-wrapper__commission {
+    color: #3c3c3c;
+    line-height: 1.4;
+    text-align: center;
+}
+.oplata-wrapper__note--btm {
+    text-align: center;
+}
+.call-us {
+    text-transform: uppercase;
+    padding-top: 35px;
+}
 /* Pop-up-form */
 
 .hidden {
