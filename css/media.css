@@ -87,6 +87,20 @@
 		width: 82%;
 	}
 
+	/**********Catalog.html**********/
+
+	ul.submenu {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.klishe-row__list img {
+		width: 20%;
+	}
+
+
 	/**********end of Index.html**********/	
 }
 
@@ -180,6 +194,12 @@
 	}
 
 	/**********end of Index.html**********/
+
+	/**********Catalog.html**********/
+
+	.klishe-row__list img {
+		width: 28%;
+	}
 }
 
 @media only screen and (max-width : 640px) {
@@ -198,6 +218,12 @@
 	}
 
 	/**********end of Index.html**********/
+
+	/**********Catalog.html**********/
+
+	.klishe-row__list img {
+		width: 38%;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 550px) {
@@ -322,6 +348,12 @@
 	}
 
 	/**********end of Index.html**********/	
+
+	/**********Catalog.html**********/
+
+	.klishe-row__list img {
+		width: 62%;
+	}
 }
 
 

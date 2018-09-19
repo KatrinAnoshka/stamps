@@ -37,6 +37,7 @@ $(document).ready(function() {
     	$(".file9").trigger('click');
 	});
 
+
 	/* Pop-up-form */
 
 	// $(".order-call, .call").click(function() {
@@ -46,6 +47,19 @@ $(document).ready(function() {
 	// 	type:"inline",
 	// 	mainClass: 'mfp-forms'
 	// });
+
+
+		/*  SUBMENU KLISHE */
+	$('.submenu li').click(function(){
+		$divId = $(this).attr('target');
+
+		$('.klishe-row').hide(400);
+		$('#'+$divId).show(400);
+
+		$('.submenu li').removeClass('active');
+		$(this).addClass('active');
+
+	});
 
 });
 
