@@ -3,23 +3,14 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	
+	/**********Index.html**********/
+	
 	/*Header-section*/
 	.logo-menu-wrap {
 		display: block;
 	}
 	.menu {
 		margin-top: 10px;
-	}
-	/*Section-products*/
-	.flex-direction-nav {
-		display: none;
-	}
-	/*Section-review*/
-	.slides__review-main {
-		width: 90%;
-	}
-	.slides__review-response {
-		width: 80%;
 	}
 	/*Section-contacts*/
 	#map {
@@ -30,10 +21,28 @@
 		left: 50%;
 		transform: translateX(-50%);
 	}
+	
+	/*Section-products*/
+	.flex-direction-nav {
+		display: none;
+	}
+
+	/*Section-review*/
+	.slides__review-main {
+		width: 90%;
+	}
+	.slides__review-response {
+		width: 80%;
+	}
+
+	/**********end of Index.html**********/
+	
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	
+	/**********Index.html**********/	
 	
 	/*Section-round-stamp*/
 	.stamp-item {
@@ -60,7 +69,6 @@
 		margin: 0 auto;
 		padding-right: 0;
 		width: 70%;
-
 	}
 	.products-item__descr {
 		-ms-align-items: center;
@@ -73,15 +81,19 @@
 	.products-item__price {
 		margin-top: 15px;
 		text-align: center;
-	}
-	
+	}	
 	/*Section-clients */
 	.clients .wrapper {
 		width: 82%;
 	}
+
+	/**********end of Index.html**********/	
 }
 
 @media only screen and (max-width : 880px) {
+
+	/**********Index.html**********/
+
 	/*Header-section*/
 	.menu__icon {
 		display: block;
@@ -104,7 +116,10 @@
 	.header {
 		position: relative;
 	}
+
+	/**********end of Index.html**********/	
 }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -129,6 +144,9 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
+
+	/**********Index.html**********/	
+
 	/*Section-round-stamp*/
 	.stamp-item {
 		width: 54%;
@@ -136,7 +154,6 @@
 	.stamp-items {
 		padding-top: 50px;
 	}
-
 	/*Section-review*/
 	.button__review {
 	    margin-top: 15%;
@@ -144,13 +161,11 @@
 	.review-wrap {
 		padding-bottom: 50px;
 	}
-
 	/*Section-about*/
 	.about-item {
 		width: 45%;
 		padding-right: 0;
 	}
-
 	/*Section-products*/
 	.products-list {
 		width: 95%;
@@ -161,12 +176,15 @@
 	}
 	/*Section-clients*/
 	.clients .wrapper {
-	    width: 65%;
+	    width: 51%;
 	}
 
+	/**********end of Index.html**********/
 }
 
 @media only screen and (max-width : 640px) {
+
+	/**********Index.html**********/	
 	.header-wrap {
 		padding-bottom: 60px;
 	}
@@ -178,19 +196,28 @@
 	.menu__icon {
 	    top: 50px;
 	}
+
+	/**********end of Index.html**********/
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 550px) {
+
+	/**********Index.html**********/	
+
 	body {
 		font-size: 0.8em;
 	}
 	.header-wrap {
-    padding-bottom: 82px;
-}
+	    padding-bottom: 82px;
+	}
 	.button__header {
 		font-size: 16px;
 	}
-	.about-wrap, .catalog-wrap, .stamp-wrap, .products-wrap, .review-wrap {
+	.about-wrap, 
+	.catalog-wrap, 
+	.stamp-wrap, 
+	.products-wrap, 
+	.review-wrap {
 	    padding-top: 50px;
 	    padding-bottom: 50px;
 	}
@@ -206,16 +233,15 @@
 	}
 	.logo-menu-wrap {
 		width: 53%;
-    padding-top: 17px;
+    	padding-top: 17px;
 	}
 	.menu.menu_state_open .menu__links {
 		position: relative;
 		-ms-align-items: flex-start;
 		align-items: flex-start;
-    width: 130%;
-    left: 50%;
-	}
-	
+    	width: 130%;
+    	left: 50%;
+	}	
 	/*Section-main-slider*/
 	.button__slider {
 		line-height: 3;
@@ -244,15 +270,19 @@
 	.flexslider-clients {
 	    margin: 45px 0 160px;
 	}
-
 	/*Section-products*/ 
 	.flexslider .slides img {
 		width: 85%;
 	}
+
+	/**********end of Index.html**********/	
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 480px) {
+
+	/**********Index.html**********/	
+
 	/*Section-about*/
 	.about-item {
 	    width: 60%; 
@@ -260,7 +290,6 @@
 	.about-items {
 		justify-content: center;
 	}
-
 	/*Section-stamp*/
 	.stamp-item {
 	    width: 90%;
@@ -276,7 +305,6 @@
 	.products-name {
 		padding: 4px;
 	}
-
 	/*Section-review*/
 	.button__review {
 		width: 80%;
@@ -285,11 +313,15 @@
 	.slides__review-response {
 		bottom: -124px;
 	}
-
 	/*Section-clients*/
 	.flexslider-clients {
 	    margin: 45px 0 94px;
 	}
+	.clients {
+	    padding-bottom: 55px;
+	}
+
+	/**********end of Index.html**********/	
 }
 
 
