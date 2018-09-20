@@ -18,6 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<link rel="stylesheet" href="libs/flexslider/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -48,7 +49,7 @@
 						<li class="menu__links-item"><a href="#">Каталог</a></li>
 						<li class="menu__links-item"><a href="#">Акции</a></li>
 						<li class="menu__links-item"><a href="#">Оплата и доставка</a></li>
-						<li class="menu__links-item contacts"><a href="#">Отзывы</a></li>
+						<li class="menu__links-item contacts"><a href="#review">Отзывы</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -59,7 +60,7 @@
 				<p class="address">г.Минск, ул. Мележа,<br> д.5, комн.806</p>
 			</div>
 
-			<a href="#" class="button button__header">Бесплатный звонок</a>
+			<a href="#form_back" class="order-call button button__header">Бесплатный звонок</a>
 		</div>
 	</header>
 
@@ -72,14 +73,14 @@
 		            <div class="slides-item">
 		            	<img class="slides-item__img" src="img/slider/slide.png" alt="slide">
 		            	<p class="slides-item__descr">Сделайте заказ до 20 июля<br> и получите скидку</p>
-		            	<a href="#" class="button button__slider">Заказать</a>
+		            	<a href="#form_back" class="order-call button button__slider">Заказать</a>
 		            </div>
 		        </li>
 		       <li>
 		            <div class="slides-item">
 		            	<img class="slides-item__img" src="img/slider/slide.png" alt="slide">
 		            	<p class="slides-item__descr">Сделайте заказ до 20 июля<br> и получите скидку</p>
-		            	<a href="#" class="button button__slider">Заказать</a>
+		            	<a href="#form_back" class="order-call button button__slider">Заказать</a>
 		            </div>
 		        </li>
 		    </ul>
@@ -294,7 +295,7 @@
 							<p class="products-item__text">Краткое описание данной продукции, её достоинства, особенности производства. Время изготовления данного товара и преимущество заказа у нашей фирмы.</p>
 							<p class="products-item__time">Время производства: 3 дня.</p>
 							<p class="products-item__price">Стоимость: 1500 рублей.</p>
-							<a href="#" class="button button__products">заказать</a>
+							<a href="#form_back" class="order-call button button__products">заказать</a>
 						</div>
 				    </li>
 				    <li class="products-item">
@@ -304,7 +305,7 @@
 							<p class="products-item__text">Краткое описание данной продукции, её достоинства, особенности производства. Время изготовления данного товара и преимущество заказа у нашей фирмы.</p>
 							<p class="products-item__time">Время производства: 3 дня.</p>
 							<p class="products-item__price">Стоимость: 1500 рублей.</p>
-							<a href="#" class="button button__products">заказать</a>
+							<a href="#form_back" class="order-call button button__products">заказать</a>
 						</div>
 				    </li>
 				    <li class="products-item">
@@ -314,7 +315,7 @@
 							<p class="products-item__text">Краткое описание данной продукции, её достоинства, особенности производства. Время изготовления данного товара и преимущество заказа у нашей фирмы.</p>
 							<p class="products-item__time">Время производства: 3 дня.</p>
 							<p class="products-item__price">Стоимость: 1500 рублей.</p>
-							<a href="#" class="button button__products">заказать</a>
+							<a href="#form_back" class="order-call button button__products">заказать</a>
 						</div>
 				    </li>
 			    			    
@@ -330,7 +331,7 @@
 
 	<!--************ Section-review ************-->
 
-	<section class="review">
+	<section class="review" id="review">
 		<div class="review-wrap">
 			<h2 class="section-title review-title">Отзывы</h2>
 
@@ -371,7 +372,7 @@
 		    </ul>
 			</div>
 		
-			<a href="#" class="button button__review">Оставить свой отзыв</a>
+			<a href="#form_review" class="review-call button button__review">Оставить свой отзыв</a>
 		</div>
 
 		<!--************ Section-clients ************-->
@@ -463,13 +464,12 @@
 				
 	</div>
 
-
-	<!-- Pop-up-form -->
+	<!-- Pop-up-form ** Order-call-->
 
     <div class="hidden">
         <form id="form_back">
-            <h2>Заказать звонок</h2>
-            <p>Мы свяжемся с Вами в течение 10 минут<br> и ответим на все Ваши вопросы</p>
+            <h5>Оставить заявку</h5>
+            <p>Заполните форму и мы перезвоним вам<br> в ближайшее время</p>
             <label>
                 <span>Ваше имя:</span>
                 <input type="text" name="name" required />
@@ -479,11 +479,35 @@
                 <input type="text" name="phone" value="+(375)" required />
             </label>
             <div class="button_wrap">
-                <button class="button btn-green">Отправить заявку</button>
+                <button class="button button__form">Отправить</button>
             </div>
 
             <input type="hidden" name="formname" value="">
+        </form>
+    </div>
 
+    <!-- Pop-up-form ** Review-->
+
+    <div class="hidden">
+        <form id="form_review">
+            <h5>Оставить отзыв</h5>          
+            <label>
+                <span>Ваше имя:</span>
+                <input type="text" name="name" required />
+            </label>
+            <label>
+                <span>Ваш телефон:</span>
+                <input type="text" name="phone" value="+(375)" required />
+            </label>
+            <label>
+                <span>Ваш комментарий / отзыв:</span>
+                <textarea name="description" id="description" cols="30" rows="8"></textarea>
+            </label>
+            <div class="button_wrap">
+                <button class="button button__form">Отправить</button>
+            </div>
+
+            <input type="hidden" name="formname" value="">
         </form>
     </div>
 	
@@ -516,6 +540,7 @@
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/jquery/jquery.easing.1.3.js"></script>
 	<script src="libs//flexslider/jquery.flexslider.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 	<script src="js/common.js"></script>
 	

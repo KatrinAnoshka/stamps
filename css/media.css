@@ -3,7 +3,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	
-	/**********Index.html**********/
+	/******************Index.html******************/
 	
 	/*Header-section*/
 	.logo-menu-wrap {
@@ -34,15 +34,13 @@
 	.slides__review-response {
 		width: 80%;
 	}
-
-	/**********end of Index.html**********/
 	
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	
-	/**********Index.html**********/	
+	/*******************Index.html*******************/	
 	
 	/*Section-round-stamp*/
 	.stamp-item {
@@ -86,10 +84,8 @@
 	.clients .wrapper {
 		width: 82%;
 	}
-	
-	/**********end of Index.html**********/	
 
-	/**********Catalog.html**********/
+	/********************Catalog.html********************/
 
 	ul.submenu {
 		-webkit-flex-wrap: wrap;
@@ -102,13 +98,11 @@
 		width: 20%;
 	}
 
-
-	
 }
 
 @media only screen and (max-width : 880px) {
 
-	/**********Index.html**********/
+	/********************Index.html********************/
 
 	/*Header-section*/
 	.menu__icon {
@@ -132,15 +126,15 @@
 	.header {
 		position: relative;
 	}
-
-	/**********end of Index.html**********/	
 	
-	/**********Catalog.html**********/
+	/**********************Catalog.html**********************/
+
 	.catalog-main {
      	padding-top: 0; 
 	}
 
-	/**********Oplata.html**********/
+	/**********************Oplata.html**********************/
+
 	.oplata {
 		padding-top: 0;
 	}
@@ -171,7 +165,7 @@
 		animation: none !important;
 	}
 
-	/**********Index.html**********/	
+	/*******************Index.html*******************/	
 
 	/*Section-round-stamp*/
 	.stamp-item {
@@ -205,9 +199,7 @@
 	    width: 51%;
 	}
 
-	/**********end of Index.html**********/
-
-	/**********Catalog.html**********/
+	/*******************Catalog.html*******************/
 
 	.klishe-row__list img {
 		width: 28%;
@@ -216,28 +208,27 @@
 
 @media only screen and (max-width : 640px) {
 
-	/**********Index.html**********/	
+	/********************Index.html********************/	
+
 	.header-wrap {
 		padding-bottom: 60px;
 	}
 	.our-contacts {
 		position: absolute;
-    bottom: 10px;
-    right: 20px;
+	    bottom: 10px;
+	    right: 20px;
 	}
 	.menu__icon {
 	    top: 50px;
 	}
 
-	/**********end of Index.html**********/
-
-	/**********Catalog.html**********/
+	/*******************Catalog.html*******************/
 
 	.klishe-row__list img {
 		width: 38%;
 	}
 
-	/**********Oplata.html**********/
+	/*******************Oplata.html*******************/
 
 	.oplata-wrapper {
 		padding: 50px 20px;
@@ -273,7 +264,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 550px) {
 
-	/**********Index.html**********/	
+	/********************Index.html********************/	
 
 	body {
 		font-size: 0.8em;
@@ -346,7 +337,7 @@
 		width: 85%;
 	}
 
-	/**********Oplata.html**********/	
+	/*******************Oplata.html*******************/	
 
 	.oplata-wrapper {
 	    padding: 50px 20px 125px;
@@ -356,7 +347,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 480px) {
 
-	/**********Index.html**********/	
+	/*********************Index.html*********************/	
 
 	/*Section-about*/
 	.about-item {
@@ -396,15 +387,12 @@
 	    padding-bottom: 55px;
 	}
 
-	/**********end of Index.html**********/	
-
-	/**********Catalog.html**********/
+	/*********************Catalog.html*********************/
 
 	.klishe-row__list img {
 		width: 62%;
 	}
 }
-
 
 /*==========  Mobile First Method  ==========*/
 

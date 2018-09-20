@@ -8,7 +8,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Каталог</title>
+	<title>Штамп-сервис</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 
@@ -18,6 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<link rel="stylesheet" href="libs/flexslider/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -59,7 +60,7 @@
 				<p class="address">г.Минск, ул. Мележа,<br> д.5, комн.806</p>
 			</div>
 
-			<a href="#" class="button button__header">Бесплатный звонок</a>
+			<a href="#form_back" class="order-call button button__header">Бесплатный звонок</a>
 		</div>
 	</header>
 	
@@ -108,12 +109,12 @@
 		                    	<img src="img/catalog/catalog2.png" alt="alt">
 		                    	<img src="img/catalog/catalog2.png" alt="alt">
 		                    	<img src="img/catalog/catalog2.png" alt="alt">
-		                    	<img src="img/catalog/catalog2.png" alt="alt">							
-		                    	<img src="img/catalog/catalog2.png" alt="alt">							
-		                    	<img src="img/catalog/catalog2.png" alt="alt">							
-		                    	<img src="img/catalog/catalog2.png" alt="alt">							
-		                    	<img src="img/catalog/catalog2.png" alt="alt">							
-							</li>
+		                    	<img src="img/catalog/catalog2.png" alt="alt">						
+		                    	<img src="img/catalog/catalog2.png" alt="alt">						
+		                    	<img src="img/catalog/catalog2.png" alt="alt">						
+		                    	<img src="img/catalog/catalog2.png" alt="alt">						
+		                    	<img src="img/catalog/catalog2.png" alt="alt">						
+		                    </li>
 						</ul>
 					</div>
 
@@ -125,12 +126,12 @@
 		                    	<img src="img/catalog/catalog3.png" alt="alt">
 		                    	<img src="img/catalog/catalog3.png" alt="alt">
 		                    	<img src="img/catalog/catalog3.png" alt="alt">
-		                    	<img src="img/catalog/catalog3.png" alt="alt">							
-		                    	<img src="img/catalog/catalog3.png" alt="alt">							
-		                    	<img src="img/catalog/catalog3.png" alt="alt">							
-		                    	<img src="img/catalog/catalog3.png" alt="alt">							
-		                    	<img src="img/catalog/catalog3.png" alt="alt">							
-							</li>
+		                    	<img src="img/catalog/catalog3.png" alt="alt">						
+		                    	<img src="img/catalog/catalog3.png" alt="alt">						
+		                    	<img src="img/catalog/catalog3.png" alt="alt">						
+		                    	<img src="img/catalog/catalog3.png" alt="alt">						
+		                    	<img src="img/catalog/catalog3.png" alt="alt">						
+		                    </li>
 						</ul>
 					</div>
 
@@ -142,11 +143,11 @@
 		                    	<img src="img/catalog/catalog4.png" alt="alt">
 		                    	<img src="img/catalog/catalog4.png" alt="alt">
 		                    	<img src="img/catalog/catalog4.png" alt="alt">
-		                    	<img src="img/catalog/catalog4.png" alt="alt">							
-		                    	<img src="img/catalog/catalog4.png" alt="alt">							
-		                    	<img src="img/catalog/catalog4.png" alt="alt">							
-		                    	<img src="img/catalog/catalog4.png" alt="alt">							
-		                    	<img src="img/catalog/catalog4.png" alt="alt">							
+		                    	<img src="img/catalog/catalog4.png" alt="alt">						
+		                    	<img src="img/catalog/catalog4.png" alt="alt">						
+		                    	<img src="img/catalog/catalog4.png" alt="alt">						
+		                    	<img src="img/catalog/catalog4.png" alt="alt">						
+		                    	<img src="img/catalog/catalog4.png" alt="alt">						
 							</li>
 						</ul>
 					</div>
@@ -163,8 +164,8 @@
 		                    	<img src="img/catalog/catalog5.png" alt="alt">
 		                    	<img src="img/catalog/catalog5.png" alt="alt">
 		                    	<img src="img/catalog/catalog5.png" alt="alt">
-		                    	<img src="img/catalog/catalog5.png" alt="alt">							
-							</li>
+		                    	<img src="img/catalog/catalog5.png" alt="alt">						
+		                    </li>
 						</ul>
 					</div>
 		                         
@@ -173,10 +174,7 @@
 		</div>
 	</section>
 
-
-
-
-		<!--************* Section-contacts *************-->
+	<!--************* Section-contacts *************-->
 
 	<div class="section-contacts">
 
@@ -231,13 +229,12 @@
 				
 	</div>
 
-
-	<!-- Pop-up-form -->
+	<!-- Pop-up-form ** Order-call-->
 
     <div class="hidden">
         <form id="form_back">
-            <h2>Заказать звонок</h2>
-            <p>Мы свяжемся с Вами в течение 10 минут<br> и ответим на все Ваши вопросы</p>
+            <h5>Оставить заявку</h5>
+            <p>Заполните форму и мы перезвоним вам<br> в ближайшее время</p>
             <label>
                 <span>Ваше имя:</span>
                 <input type="text" name="name" required />
@@ -247,11 +244,35 @@
                 <input type="text" name="phone" value="+(375)" required />
             </label>
             <div class="button_wrap">
-                <button class="button btn-green">Отправить заявку</button>
+                <button class="button button__form">Отправить</button>
             </div>
 
             <input type="hidden" name="formname" value="">
+        </form>
+    </div>
 
+    <!-- Pop-up-form ** Review-->
+
+    <div class="hidden">
+        <form id="form_review">
+            <h5>Оставить отзыв</h5>          
+            <label>
+                <span>Ваше имя:</span>
+                <input type="text" name="name" required />
+            </label>
+            <label>
+                <span>Ваш телефон:</span>
+                <input type="text" name="phone" value="+(375)" required />
+            </label>
+            <label>
+                <span>Ваш комментарий / отзыв:</span>
+                <textarea name="description" id="description" cols="30" rows="8"></textarea>
+            </label>
+            <div class="button_wrap">
+                <button class="button button__form">Отправить</button>
+            </div>
+
+            <input type="hidden" name="formname" value="">
         </form>
     </div>
 	
@@ -284,6 +305,7 @@
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/jquery/jquery.easing.1.3.js"></script>
 	<script src="libs//flexslider/jquery.flexslider.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 
 	<script src="js/common.js"></script>
 	
